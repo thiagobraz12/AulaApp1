@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\pages\\produtos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\pages\\produtos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\pages\\categorias.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\pages\\categorias.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Models\\Categoria.cs",
+              "RelativeToolTip": "AulaApp1\\Components\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T01:43:55.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categorias.razor",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Categorias.razor",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\Pages\\Categorias.razor",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Categorias.razor",
+              "RelativeToolTip": "AulaApp1\\Components\\Pages\\Categorias.razor",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-05T01:32:55.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Produtos.razor",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Produtos.razor",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\Pages\\Produtos.razor",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Produtos.razor",
+              "RelativeToolTip": "AulaApp1\\Components\\Pages\\Produtos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T00:28:23.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Models\\Produto.cs",
+              "RelativeToolTip": "AulaApp1\\Components\\Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T00:21:27.903Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

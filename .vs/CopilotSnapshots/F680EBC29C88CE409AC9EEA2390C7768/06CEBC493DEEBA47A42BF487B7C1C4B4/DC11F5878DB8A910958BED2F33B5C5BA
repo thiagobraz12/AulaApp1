@@ -1,0 +1,55 @@
+﻿@page "/produtos"
+
+<h3>Produtos</h3>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card card-body">
+            <label class="form-label">Nome</label>
+            <input class="form-control" @bind="Nome" />
+            <label class="form-label">Preço</label>
+            <input type="number" @bind="Preco" />
+            <label class="form-label">Quantidade</label>
+            <input type="number" @bind="Quantidade" />
+            <button class="btn btn-primary" @onclick="AdcionarProduto">Adcionar Produto</button>
+        </div>
+    </div>
+
+    <div class="col-md-8">
+        <table class="table table-striped">
+            <thead>
+                <tr>Nome</tr>
+            </thead>
+        <ul>
+
+            @foreach (var p in produtos)
+            {
+                <li>@p.Nome: R$@p.Preco - @p.Quantidade Un</li>
+            }
+
+        </ul>
+        </table>
+    </div>
+</div>
+
+@code {
+
+    private string Nome = "";
+    private decimal Preco;
+    private int Quantidade;
+
+    private List<Produto> produtos = new();
+
+    private void AdcionarProduto()
+    {
+        produtos.Add(new Produto
+        {
+            Nome = Nome,
+            Preco = Preco,
+            Quantidade = Quantidade
+        });
+        Nome = "";
+        Preco = 0;
+        Quantidade = 0;
+    }
+}

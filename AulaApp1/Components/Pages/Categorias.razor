@@ -1,0 +1,138 @@
+﻿@page "/categorias"
+
+<h3>Categorias</h3>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card card-body">
+
+            <EditForm EditContext="@editContext" OnValidSubmit="@AdicionarCategoria">
+
+                <DataAnnotationsValidator />
+
+                <label class="form-label">Nome</label>
+                <InputText class="form-control" @bind-Value="categoria.Nome" />
+                <ValidationMessage For="@(() => categoria.Nome)" class="text-danger" />
+
+                <label class="form-label mt-2">Quantidade</label>
+                <InputNumber class="form-control" @bind-Value="categoria.Quantidade" />
+                <ValidationMessage For="@(() => categoria.Quantidade)" class="text-danger" />
+
+                <button type="submit" class="btn btn-primary mt-3">
+                    Adicionar Categoria
+                </button>
+
+            </EditForm>
+
+            @if (!string.IsNullOrEmpty(mensagem))
+            {
+                <p class="text-success mt-3">@mensagem</p>
+            }
+
+        </div>
+    </div>
+
+    <div class="col-md-8">
+        <div class="card card-body">
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @if (categorias.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="2" class="text-muted">
+                                Nenhuma Categoria Cadastrada!
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var c in categorias)
+                        {
+                            <tr>
+                                <td>@c.Nome</td>
+                                <td>@c.Quantidade</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+
+@code {
+
+    private Categoria categoria = new();
+
+    private EditContext editContext = default!;
+
+    private ValidationMessageStore mensagensPersonalizadas = default!;
+
+    private List<Categoria> categorias = new();
+
+    private string mensagem = "";
+
+    protected override void OnInitialized()
+    {
+        InicializarFormulario();
+    }
+
+    private void InicializarFormulario()
+    {
+        editContext = new EditContext(categoria);
+
+        mensagensPersonalizadas =
+            new ValidationMessageStore(editContext);
+
+        editContext.OnValidationRequested += ValidarDuplicidade;
+    }
+
+    private void ValidarDuplicidade(
+        object? sender,
+        ValidationRequestedEventArgs e)
+    {
+        mensagensPersonalizadas.Clear();
+
+        bool categoriaExiste = categorias.Any(c =>
+            c.Nome.Equals(
+                categoria.Nome.Trim(),
+                StringComparison.OrdinalIgnoreCase));
+
+        if (categoriaExiste)
+        {
+            mensagensPersonalizadas.Add(
+                editContext.Field(nameof(Categoria.Nome)),
+                "Essa categoria já está cadastrada.");
+        }
+
+        editContext.NotifyValidationStateChanged();
+    }
+
+    private void AdicionarCategoria()
+    {
+        categorias.Add(new Categoria
+        {
+            Nome = categoria.Nome.Trim(),
+            Quantidade = categoria.Quantidade
+        });
+
+        mensagem = $"Categoria {categoria.Nome} cadastrada com sucesso!";
+
+        editContext.OnValidationRequested -= ValidarDuplicidade;
+
+        categoria = new Categoria();
+
+        InicializarFormulario();
+    }
+}
+
