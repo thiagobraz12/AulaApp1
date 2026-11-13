@@ -27,6 +27,18 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/THIAGO BRAZ/source/repos/AulaApp1/AulaApp1/Components/AvisoVazio.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBdmlzb1ZhemlvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/THIAGO BRAZ/source/repos/AulaApp1/AulaApp1/Components/Cartao.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJ0YW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/THIAGO BRAZ/source/repos/AulaApp1/AulaApp1/Components/FormProduto.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtUHJvZHV0by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/THIAGO BRAZ/source/repos/AulaApp1/AulaApp1/Components/Pages/Categorias.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWFzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -57,6 +69,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/THIAGO BRAZ/source/repos/AulaApp1/AulaApp1/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/THIAGO BRAZ/source/repos/AulaApp1/AulaApp1/Components/TabelaProdutos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWJlbGFQcm9kdXRvcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/THIAGO BRAZ/source/repos/AulaApp1/AulaApp1/Components/_Imports.razor]

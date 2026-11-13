@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\formproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\formproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\tabelaprodutos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\tabelaprodutos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\pages\\produtos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\pages\\produtos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\pages\\categorias.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\pages\\categorias.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\avisovazio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\avisovazio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\cartao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\cartao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|solutionrelative:aulaapp1\\components\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C921A5C7-ED8C-BB29-6BE9-4ACD0B693A20}|AulaApp1\\AulaApp1.csproj|c:\\users\\thiago braz\\source\\repos\\aulaapp1\\aulaapp1\\components\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +50,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md [Visualiza\u00E7\u00E3o]",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\README.md",
+              "RelativeDocumentMoniker": "AulaApp1\\README.md",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\README.md [Visualiza\u00E7\u00E3o]",
+              "RelativeToolTip": "AulaApp1\\README.md [Visualiza\u00E7\u00E3o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-11T02:07:05.057Z",
+              "EditorCaption": " [Visualiza\u00E7\u00E3o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\README.md",
+              "RelativeDocumentMoniker": "AulaApp1\\README.md",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\README.md",
+              "RelativeToolTip": "AulaApp1\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-11T01:57:35.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormProduto.razor",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\FormProduto.razor",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\FormProduto.razor",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\FormProduto.razor",
+              "RelativeToolTip": "AulaApp1\\Components\\FormProduto.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T01:35:52.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TabelaProdutos.razor",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\TabelaProdutos.razor",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\TabelaProdutos.razor",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\TabelaProdutos.razor",
+              "RelativeToolTip": "AulaApp1\\Components\\TabelaProdutos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T01:34:20.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cartao.razor",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Cartao.razor",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\Cartao.razor",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Cartao.razor",
+              "RelativeToolTip": "AulaApp1\\Components\\Cartao.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T01:31:23.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AvisoVazio.razor",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\AvisoVazio.razor",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\AvisoVazio.razor",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\AvisoVazio.razor",
+              "RelativeToolTip": "AulaApp1\\Components\\AvisoVazio.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T00:19:10.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categorias.razor",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Categorias.razor",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\Pages\\Categorias.razor",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Categorias.razor",
+              "RelativeToolTip": "AulaApp1\\Components\\Pages\\Categorias.razor",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-05T01:32:55.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produtos.razor",
+              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Produtos.razor",
+              "RelativeDocumentMoniker": "AulaApp1\\Components\\Pages\\Produtos.razor",
+              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Produtos.razor",
+              "RelativeToolTip": "AulaApp1\\Components\\Pages\\Produtos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-04T00:28:23.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "AulaApp1\\Components\\Models\\Categoria.cs",
@@ -42,40 +169,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Categorias.razor",
-              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Categorias.razor",
-              "RelativeDocumentMoniker": "AulaApp1\\Components\\Pages\\Categorias.razor",
-              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Categorias.razor",
-              "RelativeToolTip": "AulaApp1\\Components\\Pages\\Categorias.razor",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-05T01:32:55.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Produtos.razor",
-              "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Produtos.razor",
-              "RelativeDocumentMoniker": "AulaApp1\\Components\\Pages\\Produtos.razor",
-              "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Pages\\Produtos.razor",
-              "RelativeToolTip": "AulaApp1\\Components\\Pages\\Produtos.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-04T00:28:23.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "AulaApp1\\Components\\Models\\Produto.cs",
               "ToolTip": "C:\\Users\\THIAGO BRAZ\\source\\repos\\AulaApp1\\AulaApp1\\Components\\Models\\Produto.cs",
               "RelativeToolTip": "AulaApp1\\Components\\Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T00:21:27.903Z"
+              "WhenOpened": "2026-11-04T00:21:27.903Z",
+              "EditorCaption": ""
             }
           ]
         }

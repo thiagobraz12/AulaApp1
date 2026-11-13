@@ -85,3 +85,4 @@ C:\Users\THIAGO BRAZ\source\repos\AulaApp1\AulaApp1\obj\Debug\net10.0\AulaApp1.p
 C:\Users\THIAGO BRAZ\source\repos\AulaApp1\AulaApp1\obj\Debug\net10.0\AulaApp1.genruntimeconfig.cache
 C:\Users\THIAGO BRAZ\source\repos\AulaApp1\AulaApp1\obj\Debug\net10.0\ref\AulaApp1.dll
 C:\Users\THIAGO BRAZ\source\repos\AulaApp1\AulaApp1\obj\Debug\net10.0\AulaApp1.csproj.Up2Date
+C:\Users\THIAGO BRAZ\source\repos\AulaApp1\AulaApp1\obj\Debug\net10.0\AulaApp1.sourcelink.json

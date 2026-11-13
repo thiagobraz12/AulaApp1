@@ -1,0 +1,71 @@
+﻿
+<EditForm Model="@produto" OnSubmit="@ValidarEEnviarProduto">
+
+    <label class="form-label">Nome</label>
+<InputText class="form-control" @bind-Value="produto.Nome" />
+<span class="text-danger d-block">@ErroNome</span>
+
+    <label class="form-label mt-2">Preço</label>
+<InputNumber class="form-control" @bind-Value="produto.Preco" />
+<span class="text-danger d-block">@ErroPreco</span>
+
+    <label class="form-label mt-2">Quantidade</label>
+<InputNumber class="form-control" @bind-Value="produto.Quantidade" />
+<span class="text-danger d-block">@ErroQuantidade</span>
+
+    <button type="submit" class="btn btn-primary mt-3">
+    Adicionar Produto
+</button>
+
+</EditForm>
+
+@code {
+
+    [Parameter]
+    public EventCallback<Produto> OnProdutoValido { get; set; }
+
+    private Produto produto = new();
+
+    private string ErroNome = "";
+    private string ErroPreco = "";
+    private string ErroQuantidade = "";
+
+    private async Task ValidarEEnviarProduto()
+    {
+        ErroNome = "";
+        ErroPreco = "";
+        ErroQuantidade = "";
+
+        bool valido = true;
+
+        if (string.IsNullOrWhiteSpace(produto.Nome))
+        {
+            ErroNome = "Informe o nome do produto.";
+            valido = false;
+        }
+
+        if (produto.Preco <= 0)
+        {
+            ErroPreco = "O preço deve ser maior que zero.";
+            valido = false;
+        }
+
+        if (produto.Quantidade <= 0)
+        {
+            ErroQuantidade = "A quantidade deve ser maior que zero.";
+            valido = false;
+        }
+
+        if (!valido)
+        {
+            return;
+        }
+
+        produto.Nome = produto.Nome.Trim();
+
+        await OnProdutoValido.InvokeAsync(produto);
+
+        produto = new Produto();
+    }
+
+}
